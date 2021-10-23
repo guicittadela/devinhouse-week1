@@ -105,6 +105,6 @@ iframe{
 footer{
     height: 30px;
     position: absolute;
-    background-color: blanchedalmond;
-
+    font-size: 12px;
+    margin-top: 32px;
 }

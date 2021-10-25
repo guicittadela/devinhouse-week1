@@ -20,7 +20,8 @@ nav{
 }
 
 body{
-    background-color: rgb(231, 231, 202);
+    min-height: 100vh;
+    background-color: rgb(202, 202, 195);
     max-width: 100%;
     text-align: center;
     padding-top: 40px;
@@ -42,13 +43,15 @@ h1, h3{
     margin-top: 5%;
 }
 
+#sobre{
+    text-align: center;
+    padding-top: 8px;
+}
 p{
-    size: 14px;
     color: rgb(94, 86, 86);
 }
 
 .botao{
-    border: solid 1px rgb(94, 86, 86);
     border-radius: 5px;
     width: 60px;
     display: inline-block;
@@ -107,4 +110,8 @@ footer{
     position: absolute;
     font-size: 12px;
     margin-top: 32px;
+    text-align: center;
+    bottom: 0;
+    right: 0;
+    left: 0;
 }
